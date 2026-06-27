@@ -1,0 +1,23 @@
+# Environment
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+env/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# VS Code
+.vs/
+
+# Temp files
+*.tmp.*
+
+# OS
+.DS_Store
+Thumbs.db
