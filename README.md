@@ -1,6 +1,6 @@
 # Microsoft Earnings Intelligence Analyst
 
-A Streamlit application that turns Microsoft's SEC 10-K annual filings (FY2022–FY2024) into an interactive intelligence platform — combining a KPI dashboard with an AI-powered chatbot that answers questions directly from the source documents.
+A Streamlit application that turns Microsoft's SEC 10-K annual filings (FY2022-FY2024) into an interactive intelligence platform, combining a KPI dashboard with an AI-powered chatbot that answers questions directly from the source documents.
 
 Built with **Claude Sonnet**, **ChromaDB**, and **HuggingFace embeddings**.
 
@@ -20,10 +20,10 @@ Built with **Claude Sonnet**, **ChromaDB**, and **HuggingFace embeddings**.
 
 ## Features
 
-- **KPI Dashboard** — Interactive year-over-year comparisons for revenue, operating income, cloud growth, and more, with SVG sparklines and Altair charts
-- **RAG Chatbot** — Ask natural-language questions about the filings; Claude Sonnet answers using only the retrieved context from the actual 10-K documents
-- **Source transparency** — Every chatbot answer surfaces the source chunks it used, so you can verify the grounding
-- **Dark-mode UI** — Glassmorphism design with a fixed header, tab navigation, and a floating chat input
+- **KPI Dashboard**: Interactive year-over-year comparisons for revenue, operating income, cloud growth, and more, with SVG sparklines and Altair charts
+- **RAG Chatbot**: Ask natural-language questions about the filings; Claude Sonnet answers using only the retrieved context from the actual 10-K documents
+- **Source transparency**: Every chatbot answer surfaces the source chunks it used, so you can verify the grounding
+- **Dark-mode UI**: Glassmorphism design with a fixed header, tab navigation, and a floating chat input
 
 ---
 
@@ -127,7 +127,7 @@ streamlit run app.py
 
 The app opens at `http://localhost:8501`.
 
-> **Note:** The ChromaDB vector store is pre-built and included in the repo — you do not need to run the embedding scripts to use the chatbot.
+> **Note:** The ChromaDB vector store is pre-built and included in the repo. You do not need to run the embedding scripts to use the chatbot.
 
 ---
 
@@ -180,7 +180,7 @@ chunk_and_embed.py ──► ChromaDB vectorstore
 
 | Variable | Description |
 |---|---|
-| `ANTHROPIC_API_KEY` | Your Anthropic API key — required for the chatbot |
+| `ANTHROPIC_API_KEY` | Your Anthropic API key, required for the chatbot |
 
 ---
 
