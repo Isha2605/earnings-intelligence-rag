@@ -1,0 +1,38 @@
+{
+  "2022": {
+    "total_revenue": 198270,
+    "intelligent_cloud_revenue": 75251,
+    "productivity_and_business_processes_revenue": 63364,
+    "more_personal_computing_revenue": 59655,
+    "operating_income": 83383,
+    "net_income": 72738,
+    "microsoft_cloud_revenue": 91200,
+    "azure_growth_yoy_pct": 45.0,
+    "gross_margin": 135620,
+    "diluted_eps": 9.65
+  },
+  "2023": {
+    "total_revenue": 211915,
+    "intelligent_cloud_revenue": 87907,
+    "productivity_and_business_processes_revenue": 69274,
+    "more_personal_computing_revenue": 54734,
+    "operating_income": 88523,
+    "net_income": 72361,
+    "microsoft_cloud_revenue": 111600,
+    "azure_growth_yoy_pct": 29.0,
+    "gross_margin": 146052,
+    "diluted_eps": 9.68
+  },
+  "2024": {
+    "total_revenue": 245122,
+    "intelligent_cloud_revenue": 105362,
+    "productivity_and_business_processes_revenue": 77728,
+    "more_personal_computing_revenue": 62032,
+    "operating_income": 109433,
+    "net_income": 88136,
+    "microsoft_cloud_revenue": 137400,
+    "azure_growth_yoy_pct": 30.0,
+    "gross_margin": 171008,
+    "diluted_eps": 11.8
+  }
+}
