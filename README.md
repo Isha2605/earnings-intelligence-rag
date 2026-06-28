@@ -4,6 +4,8 @@ A Streamlit application that turns Microsoft's SEC 10-K annual filings (FY2022-F
 
 Built with **Claude Sonnet**, **ChromaDB**, and **HuggingFace embeddings**.
 
+**Live Demo:** https://earnings-intelligence-rag-myryhayclmg67mrsygzvgp.streamlit.app/
+
 ---
 
 ## Screenshots
